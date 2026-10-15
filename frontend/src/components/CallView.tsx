@@ -1,17 +1,15 @@
-import React, { useState, useEffect } from 'react';
-import { CoachMode, CallState, MessageTurn } from '../types';
+import React, { useState } from 'react';
+import type { CoachMode, CallState, MessageTurn } from '../types';
 import { 
   PhoneOff, 
   Mic, 
   MicOff, 
   Volume2, 
-  VolumeX, 
   Hand, 
   MessageSquare, 
   Send, 
   X,
   Sparkles,
-  CheckCircle2,
   AlertCircle
 } from 'lucide-react';
 
@@ -58,14 +56,6 @@ export const CallView: React.FC<CallViewProps> = ({
       case 'confident_talk': return 'Confident Talk';
       case 'grammar_coach': return 'Grammar Coach';
       case 'vocab_coach': return 'Vocabulary Coach';
-    }
-  };
-
-  const getModeColor = () => {
-    switch (mode) {
-      case 'confident_talk': return 'emerald';
-      case 'grammar_coach': return 'indigo';
-      case 'vocab_coach': return 'amber';
     }
   };
 
