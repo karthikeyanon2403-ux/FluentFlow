@@ -48,7 +48,7 @@ async def test_grammar_coach_provides_gentle_correction():
 async def test_vocab_coach_suggests_rich_expression():
     """Vocabulary coach suggests richer expressions and continues conversation."""
     prompt = get_system_prompt(CoachMode.VOCAB_COACH)
-    assert "natural expressions, collocations, phrasal verbs" in prompt
+    assert "collocation, idiom, or phrasal verb" in prompt
 
     user_input = "The movie was very good."
     response, feedback = await ai_service.generate_response(
