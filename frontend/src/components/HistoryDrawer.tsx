@@ -1,5 +1,5 @@
 import React from 'react';
-import { SessionListItem, SessionSummaryReport } from '../types';
+import type { SessionListItem, SessionSummaryReport } from '../types';
 import { History, X, Trash2, Clock, MessageSquare, ChevronRight } from 'lucide-react';
 
 interface HistoryDrawerProps {

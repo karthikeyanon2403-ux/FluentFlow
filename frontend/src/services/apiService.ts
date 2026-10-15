@@ -1,4 +1,4 @@
-import { CoachMode, SessionSummaryReport, UserPreferences, SessionListItem } from '../types';
+import type { CoachMode, SessionSummaryReport, UserPreferences, SessionListItem } from '../types';
 
 const API_BASE = '/api';
 

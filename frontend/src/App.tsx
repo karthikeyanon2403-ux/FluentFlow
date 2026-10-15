@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { CoachMode, CallState, MessageTurn, SessionSummaryReport, UserPreferences, SessionListItem } from './types';
+import type { CoachMode, CallState, MessageTurn, SessionSummaryReport, UserPreferences, SessionListItem } from './types';
 import { Navbar } from './components/Navbar';
 import { DashboardView } from './components/DashboardView';
 import { CallView } from './components/CallView';

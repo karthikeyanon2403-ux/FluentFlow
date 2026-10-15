@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { UserPreferences } from '../types';
+import type { UserPreferences } from '../types';
 import { Settings, X, Shield, Volume2, Gauge, Clock, Check } from 'lucide-react';
 
 interface PreferencesModalProps {

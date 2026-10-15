@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SessionSummaryReport } from '../types';
+import type { SessionSummaryReport } from '../types';
 import { 
   Trophy, 
   Clock, 

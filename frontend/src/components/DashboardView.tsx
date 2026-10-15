@@ -1,5 +1,5 @@
 import React from 'react';
-import { CoachMode } from '../types';
+import type { CoachMode } from '../types';
 import { 
   PhoneCall, 
   MessageCircle, 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Headphones, History, Settings, Sparkles } from 'lucide-react';
+import { Headphones, History, Settings } from 'lucide-react';
 
 interface NavbarProps {
   onOpenHistory: () => void;
